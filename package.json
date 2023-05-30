@@ -1,0 +1,25 @@
+{
+  "name": "custom-product-app",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@selectize/selectize": "^0.15.2",
+    "@shopify/app": "^3.46.0",
+    "@shopify/cli": "^3.46.0",
+    "@shopify/web-pixels-extension": "^0.1.6",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "mysql": "^2.18.1",
+    "select2-react-component": "^6.1.1"
+  },
+  "author": "Mit"
+}
